@@ -1,0 +1,6 @@
+node_modules
+.serverless
+icons
+
+test.js
+*v2.js

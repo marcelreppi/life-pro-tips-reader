@@ -1,0 +1,12 @@
+service: reddit-life-pro-tip-reader-skill
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: eu-west-1
+
+functions:
+  reddit-life-pro-tip-reader:
+    handler: index.handler
+    name: reddit-life-pro-tip-reader
+    events:
+      - alexaSkill
